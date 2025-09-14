@@ -10,10 +10,10 @@
     --background: 0 0% 100%;
     --foreground: 215 20% 15%;
     
-    /* Primary Brand - Deep Sophisticated Blue */
-    --primary: 215 85% 25%;
-    --primary-foreground: 0 0% 98%;
-    --primary-glow: 215 85% 35%;
+    /* Primary Brand - Vibrant Yellow */
+    --primary: 42 100% 57%;
+    --primary-foreground: 0 0% 15%;
+    --primary-glow: 42 100% 67%;
     
     /* Secondary - Warm Accent */
     --secondary: 25 85% 60%;
@@ -33,7 +33,7 @@
     /* Interactive Elements */
     --border: 215 20% 88%;
     --input: 215 20% 88%;
-    --ring: 215 85% 25%;
+    --ring: 42 100% 57%;
     --popover: 0 0% 100%;
     --popover-foreground: 215 20% 15%;
     
@@ -85,9 +85,9 @@
     --background: 215 28% 7%;
     --foreground: 215 15% 90%;
     
-    --primary: 215 85% 65%;
-    --primary-foreground: 215 28% 7%;
-    --primary-glow: 215 85% 75%;
+    --primary: 42 100% 67%;
+    --primary-foreground: 0 0% 15%;
+    --primary-glow: 42 100% 77%;
     
     --secondary: 25 85% 65%;
     --secondary-foreground: 215 28% 7%;
@@ -103,7 +103,7 @@
     
     --border: 215 20% 18%;
     --input: 215 20% 18%;
-    --ring: 215 85% 65%;
+    --ring: 42 100% 67%;
     --popover: 215 25% 9%;
     --popover-foreground: 215 15% 90%;
     

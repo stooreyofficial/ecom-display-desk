@@ -1,56 +1,42 @@
 import { Link } from "react-router-dom";
 import { 
-  Headphones, 
-  Smartphone, 
-  Watch, 
-  Laptop, 
-  Camera, 
-  Gamepad2,
+  PenTool, 
+  Gift, 
+  Gamepad2, 
+  Trophy, 
+  Scissors, 
+  Heart,
   ArrowRight 
 } from "lucide-react";
 
 const categories = [
   {
     id: 1,
-    name: "Audio",
-    icon: Headphones,
-    productCount: 45,
+    name: "Stationery",
+    icon: PenTool,
+    productCount: 145,
     color: "bg-blue-500",
   },
   {
     id: 2,
-    name: "Mobile",
-    icon: Smartphone,
-    productCount: 32,
-    color: "bg-green-500",
+    name: "Gifts",
+    icon: Gift,
+    productCount: 89,
+    color: "bg-pink-500",
   },
   {
     id: 3,
-    name: "Wearables",
-    icon: Watch,
-    productCount: 28,
+    name: "Toys",
+    icon: Heart,
+    productCount: 76,
     color: "bg-purple-500",
   },
   {
     id: 4,
-    name: "Computing",
-    icon: Laptop,
-    productCount: 56,
-    color: "bg-orange-500",
-  },
-  {
-    id: 5,
-    name: "Photography",
-    icon: Camera,
-    productCount: 23,
-    color: "bg-red-500",
-  },
-  {
-    id: 6,
-    name: "Gaming",
-    icon: Gamepad2,
-    productCount: 34,
-    color: "bg-indigo-500",
+    name: "Sports",
+    icon: Trophy,
+    productCount: 102,
+    color: "bg-green-500",
   },
 ];
 
@@ -69,7 +55,7 @@ const CategoryGrid = () => {
         </div>
 
         {/* Categories Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {categories.map((category) => {
             const Icon = category.icon;
             return (
