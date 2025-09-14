@@ -163,7 +163,7 @@
   
   /* Product Card Styles */
   .product-card {
-    @apply bg-card border border-card-border rounded-2xl p-6 transition-all duration-300 hover:shadow-product hover:-translate-y-1 group;
+    @apply bg-card border border-card-border rounded-2xl p-6 transition-all duration-300 hover:shadow-product hover:-translate-y-1;
   }
   
   .product-image {
