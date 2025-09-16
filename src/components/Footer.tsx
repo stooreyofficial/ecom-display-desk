@@ -9,17 +9,17 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">ShopElite</h3>
+            <h3 className="text-2xl font-bold mb-4">Stoorey</h3>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-              Your premier destination for high-quality products that combine innovation, style, and exceptional value.
+              Your go-to neighborhood store for stationery, gifts, toys, and creative finds. A one-stop shop where everyday essentials meet delightful surprises—for students, gifters, and the curious alike!
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+              {/* <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                 <Twitter className="h-5 w-5" />
-              </a>
+              </a> */}
               <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
@@ -73,22 +73,22 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-primary-foreground/80" />
-                <span className="text-primary-foreground/80">hello@shopelite.com</span>
+                <span className="text-primary-foreground/80">stooreyofficial@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-primary-foreground/80" />
-                <span className="text-primary-foreground/80">+1 (555) 123-4567</span>
+                <span className="text-primary-foreground/80">+91 9214745754</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-primary-foreground/80" />
-                <span className="text-primary-foreground/80">123 Commerce St, City, State 12345</span>
+                <span className="text-primary-foreground/80">Ambedkarpuram, Awas Vikas No. 3, Kalyanpur, Kanpur</span>
               </div>
             </div>
           </div>
         </div>
 
         {/* Newsletter Signup */}
-        <div className="border-t border-primary-foreground/20 pt-12 mb-8">
+        {/* <div className="border-t border-primary-foreground/20 pt-12 mb-8">
           <div className="max-w-2xl mx-auto text-center">
             <h4 className="text-xl font-semibold mb-4">Stay Updated</h4>
             <p className="text-primary-foreground/80 mb-6">
@@ -105,13 +105,13 @@ const Footer = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-primary-foreground/80 text-sm">
-              © 2024 ShopElite. All rights reserved.
+              © 2025 Stoorey. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link to="/privacy" className="text-primary-foreground/80 hover:text-primary-foreground text-sm transition-colors">

@@ -20,21 +20,20 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl">
           {/* Badge */}
-          <div className="inline-flex items-center space-x-2 bg-secondary/20 backdrop-blur-sm border border-secondary/30 rounded-full px-4 py-2 mb-6 animate-fade-up">
+          {/* <div className="inline-flex items-center space-x-2 bg-secondary/20 backdrop-blur-sm border border-secondary/30 rounded-full px-4 py-2 mb-6 animate-fade-up">
             <Star className="h-4 w-4 text-secondary" />
             <span className="text-sm font-medium text-secondary">Premium Quality Products</span>
-          </div>
+          </div> */}
 
           {/* Heading */}
           <h1 className="text-hero text-foreground mb-6 animate-fade-up">
-            Discover Premium 
-            <span className="text-primary block">Products</span>
-            That Define Excellence
+            Your neighborhood’s store
+            <span className="text-primary block">Stoorey!</span>
           </h1>
 
           {/* Description */}
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed animate-fade-up">
-            Explore our curated collection of premium products designed for those who appreciate quality, innovation, and timeless style.
+            Discover cute stationery, trendy gifts, fun toys, and kids’ sports gear – all under one roof!
           </p>
 
           {/* CTA Buttons */}

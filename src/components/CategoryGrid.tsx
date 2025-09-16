@@ -47,7 +47,7 @@ const CategoryGrid = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-section text-foreground mb-4">
-            Shop by Category
+            What You’ll Find at Stoorey
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Browse our extensive collection organized by categories to find exactly what you're looking for.

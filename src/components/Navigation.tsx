@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/contexts/CartContext";
+import stooreyLogo  from "@/assets/logo.jpg";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,8 +14,9 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="text-2xl font-bold text-primary">
-            ShopElite
+          <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-primary">
+            <img src={stooreyLogo} alt="Stoorey Logo" className="h-8 w-24 object-cover rounded-full" />
+            {/* <span>Stoorey</span> */}
           </Link>
 
           {/* Desktop Navigation */}

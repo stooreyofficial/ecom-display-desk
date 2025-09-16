@@ -71,7 +71,7 @@ const Cart = () => {
       const whatsappMessage = `Hi! I'm interested in purchasing these items:\n\n${itemsText}\n\nTotal: $${getTotalPrice().toFixed(2)}\n\nCustomer: ${customerInfo.name}\nPhone: ${customerInfo.phone}`;
       
       // Replace with your actual WhatsApp Business number
-      const whatsappNumber = "1234567890"; // Replace with your WhatsApp Business number
+      const whatsappNumber = "+919214745754"; // Replace with your WhatsApp Business number
       const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
       
       // Clear cart after successful checkout

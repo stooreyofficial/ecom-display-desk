@@ -66,7 +66,7 @@ const FeaturedProducts = () => {
             Featured Products
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Discover our handpicked selection of premium products that combine cutting-edge technology with exceptional design.
+            Discover our handpicked selection of premium products that we think will make a impact in your buying experience.
           </p>
         </div>
 
