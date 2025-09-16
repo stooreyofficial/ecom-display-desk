@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useCart } from '@/contexts/CartContext';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
@@ -107,7 +108,7 @@ const Cart = () => {
             <h2 className="text-2xl font-bold mb-2">Your cart is empty</h2>
             <p className="text-muted-foreground mb-8">Add some products to get started!</p>
             <Button asChild>
-              <a href="/products">Continue Shopping</a>
+              <Link to="/products">Continue Shopping</Link>
             </Button>
           </div>
         </div>
